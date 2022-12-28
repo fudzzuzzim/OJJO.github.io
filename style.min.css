@@ -1015,13 +1015,3 @@ no-webp .wrapper main .wrapper-main .content__3 {
     font-size: 8px;
   }
 }
-
-.webp .catalog .catalog__container .catalog__body .imgs .column .img { background-image: url(imgcatalog.png); }
-
-.webp .wrapper header { background-image: url(bgc.png); }
-
-.webp .wrapper main .wrapper-main .content__1 { background-image: url(contentBACK.png); }
-
-.webp .wrapper main .wrapper-main .catalog2 .catalog__container .catalog__body .imgs .img { background-image: url(contentIMG.png); }
-
-.webp .wrapper main .wrapper-main .content__3 { background-image: url(contentBACK.png); }
