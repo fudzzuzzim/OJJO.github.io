@@ -303,7 +303,7 @@ table {
 }
 
 @font-face {
-  font-family: "Noto Serif";;
+  font-family: "NotoSerif";;
   font-display: swap;
   src: url("NotoSerif-Bold.woff2") format("woff2"), url("NotoSerif-Bold.woff") format("woff");
   font-weight: 700;
@@ -311,7 +311,7 @@ table {
 }
 
 @font-face {
-  font-family: "Noto Serif";;
+  font-family: "NotoSerif";;
   font-display: swap;
   src: url("NotoSerif-Italic.woff2") format("woff2"), url("NotoSerif-Italic.woff") format("woff");
   font-weight: 400;
@@ -319,7 +319,7 @@ table {
 }
 
 @font-face {
-  font-family: "Noto Serif";;
+  font-family: "NotoSerif";;
   font-display: swap;
   src: url("NotoSerif-Regular.woff2") format("woff2"), url("NotoSerif-Regular.woff") format("woff");
   font-weight: 400;
@@ -327,7 +327,7 @@ table {
 }
 
 .title h2 {
-  font-family: "Noto Serif";
+  font-family: "NotoSerif";
   font-style: normal;
   font-weight: 700;
   font-size: 30px;
@@ -566,7 +566,7 @@ no-webp .wrapper header {
 }
 
 .wrapper header .wrapper-header .intro .intro__container .intro__body .txt .title h2 {
-  font-family: "Noto Serif";
+  font-family: "NotoSerif";
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
@@ -649,7 +649,7 @@ no-webp .wrapper main .wrapper-main .content__1 {
 }
 
 .wrapper main .wrapper-main .content__1 .content__container .content__body .title h3 {
-  font-family: "Noto Serif";
+  font-family: "NotoSerif";
   font-style: normal;
   font-weight: 700;
   font-size: 30px;
@@ -746,7 +746,7 @@ no-webp .wrapper main .wrapper-main .content__3 {
 }
 
 .wrapper main .wrapper-main .content__3 .content__container .content__body .title h3 {
-  font-family: "Noto Serif";
+  font-family: "NotoSerif";
   font-style: normal;
   font-weight: 700;
   font-size: 30px;
@@ -1016,12 +1016,12 @@ no-webp .wrapper main .wrapper-main .content__3 {
   }
 }
 
-.webp .catalog .catalog__container .catalog__body .imgs .column .img { background-image: url(imgcatalog.webp); }
+.webp .catalog .catalog__container .catalog__body .imgs .column .img { background-image: url(imgcatalog.png); }
 
-.webp .wrapper header { background-image: url(bgc.webp); }
+.webp .wrapper header { background-image: url(bgc.png); }
 
-.webp .wrapper main .wrapper-main .content__1 { background-image: url(contentBACK.webp); }
+.webp .wrapper main .wrapper-main .content__1 { background-image: url(contentBACK.png); }
 
-.webp .wrapper main .wrapper-main .catalog2 .catalog__container .catalog__body .imgs .img { background-image: url(contentIMG.webp); }
+.webp .wrapper main .wrapper-main .catalog2 .catalog__container .catalog__body .imgs .img { background-image: url(contentIMG.png); }
 
-.webp .wrapper main .wrapper-main .content__3 { background-image: url(contentBACK.webp); }
+.webp .wrapper main .wrapper-main .content__3 { background-image: url(contentBACK.png); }
