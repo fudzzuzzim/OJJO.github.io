@@ -684,7 +684,7 @@ body {
   text-transform: uppercase;
   color: #333333;
 }
-.wrapper main .wrapper-main .catalog2 .catalog__container .catalog__body .imgs .img{
+.wrapper main .wrapper-main .catalog2 .catalog__container .catalog__body .imgs .column .img{
   background-image: url(contentIMG.png);
 }
 
