@@ -135,7 +135,7 @@ table {
 }
 
 @font-face {
-  font-family: Gilroy;
+  font-family: "Gilroy";
   font-display: swap;
   src: url("Gilroy-Black.woff2") format("woff2"), url("Gilroy-Black.woff") format("woff");
   font-weight: 900;
@@ -143,7 +143,7 @@ table {
 }
 
 @font-face {
-  font-family: Gilroy;
+  font-family: "Gilroy";
   font-display: swap;
   src: url("Gilroy-BlackItalic.woff2") format("woff2"), url("Gilroy-BlackItalic.woff") format("woff");
   font-weight: 400;
@@ -151,7 +151,7 @@ table {
 }
 
 @font-face {
-  font-family: Gilroy;
+  font-family: "Gilroy";
   font-display: swap;
   src: url("Gilroy-Bold.woff2") format("woff2"), url("Gilroy-Bold.woff") format("woff");
   font-weight: 700;
@@ -159,7 +159,7 @@ table {
 }
 
 @font-face {
-  font-family: Gilroy;
+  font-family: "Gilroy";
   font-display: swap;
   src: url("Gilroy-Extrabold.woff2") format("woff2"), url("Gilroy-Extrabold.woff") format("woff");
   font-weight: 800;
@@ -167,7 +167,7 @@ table {
 }
 
 @font-face {
-  font-family: Gilroy;
+  font-family: "Gilroy";
   font-display: swap;
   src: url("Gilroy-BoldItalic.woff2") format("woff2"), url("Gilroy-BoldItalic.woff") format("woff");
   font-weight: 400;
@@ -175,7 +175,7 @@ table {
 }
 
 @font-face {
-  font-family: Gilroy;
+  font-family: "Gilroy";
   font-display: swap;
   src: url("Gilroy-Heavy.woff2") format("woff2"), url("Gilroy-Heavy.woff") format("woff");
   font-weight: 800;
@@ -183,7 +183,7 @@ table {
 }
 
 @font-face {
-  font-family: Gilroy;
+  font-family: "Gilroy";
   font-display: swap;
   src: url("Gilroy-ExtraboldItalic.woff2") format("woff2"), url("Gilroy-ExtraboldItalic.woff") format("woff");
   font-weight: 400;
@@ -191,7 +191,7 @@ table {
 }
 
 @font-face {
-  font-family: Gilroy;
+  font-family: "Gilroy";
   font-display: swap;
   src: url("Gilroy-LightItalic.woff2") format("woff2"), url("Gilroy-LightItalic.woff") format("woff");
   font-weight: 400;
@@ -199,7 +199,7 @@ table {
 }
 
 @font-face {
-  font-family: Gilroy;
+  font-family: "Gilroy";
   font-display: swap;
   src: url("Gilroy-Medium.woff2") format("woff2"), url("Gilroy-Medium.woff") format("woff");
   font-weight: 500;
@@ -207,7 +207,7 @@ table {
 }
 
 @font-face {
-  font-family: Gilroy;
+  font-family: "Gilroy";
   font-display: swap;
   src: url("Gilroy-HeavyItalic.woff2") format("woff2"), url("Gilroy-HeavyItalic.woff") format("woff");
   font-weight: 400;
@@ -215,7 +215,7 @@ table {
 }
 
 @font-face {
-  font-family: Gilroy;
+  font-family: "Gilroy";
   font-display: swap;
   src: url("Gilroy-MediumItalic.woff2") format("woff2"), url("Gilroy-MediumItalic.woff") format("woff");
   font-weight: 400;
@@ -223,7 +223,7 @@ table {
 }
 
 @font-face {
-  font-family: Gilroy;
+  font-family: "Gilroy";
   font-display: swap;
   src: url("Gilroy-Regular.woff2") format("woff2"), url("Gilroy-Regular.woff") format("woff");
   font-weight: 400;
@@ -231,7 +231,7 @@ table {
 }
 
 @font-face {
-  font-family: Gilroy;
+  font-family: "Gilroy";
   font-display: swap;
   src: url("Gilroy-RegularItalic.woff2") format("woff2"), url("Gilroy-RegularItalic.woff") format("woff");
   font-weight: 400;
@@ -239,7 +239,7 @@ table {
 }
 
 @font-face {
-  font-family: Gilroy;
+  font-family: "Gilroy";
   font-display: swap;
   src: url("Gilroy-Semibold.woff2") format("woff2"), url("Gilroy-Semibold.woff") format("woff");
   font-weight: 600;
@@ -247,7 +247,7 @@ table {
 }
 
 @font-face {
-  font-family: Gilroy;
+  font-family: "Gilroy";
   font-display: swap;
   src: url("Gilroy-SemiboldItalic.woff2") format("woff2"), url("Gilroy-SemiboldItalic.woff") format("woff");
   font-weight: 400;
@@ -255,7 +255,7 @@ table {
 }
 
 @font-face {
-  font-family: Gilroy;
+  font-family: "Gilroy";
   font-display: swap;
   src: url("Gilroy-Light.woff2") format("woff2"), url("Gilroy-Light.woff") format("woff");
   font-weight: 300;
@@ -263,7 +263,7 @@ table {
 }
 
 @font-face {
-  font-family: Gilroy;
+  font-family: "Gilroy";
   font-display: swap;
   src: url("Gilroy-Thin.woff2") format("woff2"), url("Gilroy-Thin.woff") format("woff");
   font-weight: 100;
@@ -271,7 +271,7 @@ table {
 }
 
 @font-face {
-  font-family: Gilroy;
+  font-family: "Gilroy";
   font-display: swap;
   src: url("Gilroy-ThinItalic.woff2") format("woff2"), url("Gilroy-ThinItalic.woff") format("woff");
   font-weight: 400;
@@ -279,7 +279,7 @@ table {
 }
 
 @font-face {
-  font-family: Gilroy;
+  font-family: "Gilroy";
   font-display: swap;
   src: url("Gilroy-UltraLight.woff2") format("woff2"), url("Gilroy-UltraLight.woff") format("woff");
   font-weight: 400;
@@ -287,7 +287,7 @@ table {
 }
 
 @font-face {
-  font-family: Gilroy;
+  font-family: "Gilroy";
   font-display: swap;
   src: url("Gilroy-UltraLightItalic.woff2") format("woff2"), url("Gilroy-UltraLightItalic.woff") format("woff");
   font-weight: 400;
@@ -295,7 +295,7 @@ table {
 }
 
 @font-face {
-  font-family: NotoSerif;
+  font-family: "Noto Serif";;
   font-display: swap;
   src: url("NotoSerif-BoldItalic.woff2") format("woff2"), url("NotoSerif-BoldItalic.woff") format("woff");
   font-weight: 400;
@@ -303,7 +303,7 @@ table {
 }
 
 @font-face {
-  font-family: NotoSerif;
+  font-family: "Noto Serif";;
   font-display: swap;
   src: url("NotoSerif-Bold.woff2") format("woff2"), url("NotoSerif-Bold.woff") format("woff");
   font-weight: 700;
@@ -311,7 +311,7 @@ table {
 }
 
 @font-face {
-  font-family: NotoSerif;
+  font-family: "Noto Serif";;
   font-display: swap;
   src: url("NotoSerif-Italic.woff2") format("woff2"), url("NotoSerif-Italic.woff") format("woff");
   font-weight: 400;
@@ -319,7 +319,7 @@ table {
 }
 
 @font-face {
-  font-family: NotoSerif;
+  font-family: "Noto Serif";;
   font-display: swap;
   src: url("NotoSerif-Regular.woff2") format("woff2"), url("NotoSerif-Regular.woff") format("woff");
   font-weight: 400;
