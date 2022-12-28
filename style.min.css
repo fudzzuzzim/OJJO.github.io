@@ -137,7 +137,7 @@ table {
 @font-face {
   font-family: Gilroy;
   font-display: swap;
-  src: url("../fonts/Gilroy-Black.woff2") format("woff2"), url("../fonts/Gilroy-Black.woff") format("woff");
+  src: url("Gilroy-Black.woff2") format("woff2"), url("Gilroy-Black.woff") format("woff");
   font-weight: 900;
   font-style: normal;
 }
@@ -145,7 +145,7 @@ table {
 @font-face {
   font-family: Gilroy;
   font-display: swap;
-  src: url("../fonts/Gilroy-BlackItalic.woff2") format("woff2"), url("../fonts/Gilroy-BlackItalic.woff") format("woff");
+  src: url("Gilroy-BlackItalic.woff2") format("woff2"), url("Gilroy-BlackItalic.woff") format("woff");
   font-weight: 400;
   font-style: Italic;
 }
@@ -153,7 +153,7 @@ table {
 @font-face {
   font-family: Gilroy;
   font-display: swap;
-  src: url("../fonts/Gilroy-Bold.woff2") format("woff2"), url("../fonts/Gilroy-Bold.woff") format("woff");
+  src: url("Gilroy-Bold.woff2") format("woff2"), url("Gilroy-Bold.woff") format("woff");
   font-weight: 700;
   font-style: normal;
 }
@@ -161,7 +161,7 @@ table {
 @font-face {
   font-family: Gilroy;
   font-display: swap;
-  src: url("../fonts/Gilroy-Extrabold.woff2") format("woff2"), url("../fonts/Gilroy-Extrabold.woff") format("woff");
+  src: url("Gilroy-Extrabold.woff2") format("woff2"), url("Gilroy-Extrabold.woff") format("woff");
   font-weight: 800;
   font-style: normal;
 }
@@ -169,7 +169,7 @@ table {
 @font-face {
   font-family: Gilroy;
   font-display: swap;
-  src: url("../fonts/Gilroy-BoldItalic.woff2") format("woff2"), url("../fonts/Gilroy-BoldItalic.woff") format("woff");
+  src: url("Gilroy-BoldItalic.woff2") format("woff2"), url("Gilroy-BoldItalic.woff") format("woff");
   font-weight: 400;
   font-style: Italic;
 }
@@ -177,7 +177,7 @@ table {
 @font-face {
   font-family: Gilroy;
   font-display: swap;
-  src: url("../fonts/Gilroy-Heavy.woff2") format("woff2"), url("../fonts/Gilroy-Heavy.woff") format("woff");
+  src: url("Gilroy-Heavy.woff2") format("woff2"), url("Gilroy-Heavy.woff") format("woff");
   font-weight: 800;
   font-style: normal;
 }
@@ -185,7 +185,7 @@ table {
 @font-face {
   font-family: Gilroy;
   font-display: swap;
-  src: url("../fonts/Gilroy-ExtraboldItalic.woff2") format("woff2"), url("../fonts/Gilroy-ExtraboldItalic.woff") format("woff");
+  src: url("Gilroy-ExtraboldItalic.woff2") format("woff2"), url("Gilroy-ExtraboldItalic.woff") format("woff");
   font-weight: 400;
   font-style: Italic;
 }
@@ -193,7 +193,7 @@ table {
 @font-face {
   font-family: Gilroy;
   font-display: swap;
-  src: url("../fonts/Gilroy-LightItalic.woff2") format("woff2"), url("../fonts/Gilroy-LightItalic.woff") format("woff");
+  src: url("Gilroy-LightItalic.woff2") format("woff2"), url("Gilroy-LightItalic.woff") format("woff");
   font-weight: 400;
   font-style: Italic;
 }
@@ -201,7 +201,7 @@ table {
 @font-face {
   font-family: Gilroy;
   font-display: swap;
-  src: url("../fonts/Gilroy-Medium.woff2") format("woff2"), url("../fonts/Gilroy-Medium.woff") format("woff");
+  src: url("Gilroy-Medium.woff2") format("woff2"), url("Gilroy-Medium.woff") format("woff");
   font-weight: 500;
   font-style: normal;
 }
@@ -209,7 +209,7 @@ table {
 @font-face {
   font-family: Gilroy;
   font-display: swap;
-  src: url("../fonts/Gilroy-HeavyItalic.woff2") format("woff2"), url("../fonts/Gilroy-HeavyItalic.woff") format("woff");
+  src: url("Gilroy-HeavyItalic.woff2") format("woff2"), url("Gilroy-HeavyItalic.woff") format("woff");
   font-weight: 400;
   font-style: Italic;
 }
@@ -217,7 +217,7 @@ table {
 @font-face {
   font-family: Gilroy;
   font-display: swap;
-  src: url("../fonts/Gilroy-MediumItalic.woff2") format("woff2"), url("../fonts/Gilroy-MediumItalic.woff") format("woff");
+  src: url("Gilroy-MediumItalic.woff2") format("woff2"), url("Gilroy-MediumItalic.woff") format("woff");
   font-weight: 400;
   font-style: Italic;
 }
@@ -225,7 +225,7 @@ table {
 @font-face {
   font-family: Gilroy;
   font-display: swap;
-  src: url("../fonts/Gilroy-Regular.woff2") format("woff2"), url("../fonts/Gilroy-Regular.woff") format("woff");
+  src: url("Gilroy-Regular.woff2") format("woff2"), url("Gilroy-Regular.woff") format("woff");
   font-weight: 400;
   font-style: normal;
 }
@@ -233,7 +233,7 @@ table {
 @font-face {
   font-family: Gilroy;
   font-display: swap;
-  src: url("../fonts/Gilroy-RegularItalic.woff2") format("woff2"), url("../fonts/Gilroy-RegularItalic.woff") format("woff");
+  src: url("Gilroy-RegularItalic.woff2") format("woff2"), url("Gilroy-RegularItalic.woff") format("woff");
   font-weight: 400;
   font-style: Italic;
 }
@@ -241,7 +241,7 @@ table {
 @font-face {
   font-family: Gilroy;
   font-display: swap;
-  src: url("../fonts/Gilroy-Semibold.woff2") format("woff2"), url("../fonts/Gilroy-Semibold.woff") format("woff");
+  src: url("Gilroy-Semibold.woff2") format("woff2"), url("Gilroy-Semibold.woff") format("woff");
   font-weight: 600;
   font-style: normal;
 }
@@ -249,7 +249,7 @@ table {
 @font-face {
   font-family: Gilroy;
   font-display: swap;
-  src: url("../fonts/Gilroy-SemiboldItalic.woff2") format("woff2"), url("../fonts/Gilroy-SemiboldItalic.woff") format("woff");
+  src: url("Gilroy-SemiboldItalic.woff2") format("woff2"), url("Gilroy-SemiboldItalic.woff") format("woff");
   font-weight: 400;
   font-style: Italic;
 }
@@ -257,7 +257,7 @@ table {
 @font-face {
   font-family: Gilroy;
   font-display: swap;
-  src: url("../fonts/Gilroy-Light.woff2") format("woff2"), url("../fonts/Gilroy-Light.woff") format("woff");
+  src: url("Gilroy-Light.woff2") format("woff2"), url("Gilroy-Light.woff") format("woff");
   font-weight: 300;
   font-style: normal;
 }
@@ -265,7 +265,7 @@ table {
 @font-face {
   font-family: Gilroy;
   font-display: swap;
-  src: url("../fonts/Gilroy-Thin.woff2") format("woff2"), url("../fonts/Gilroy-Thin.woff") format("woff");
+  src: url("Gilroy-Thin.woff2") format("woff2"), url("Gilroy-Thin.woff") format("woff");
   font-weight: 100;
   font-style: normal;
 }
@@ -273,7 +273,7 @@ table {
 @font-face {
   font-family: Gilroy;
   font-display: swap;
-  src: url("../fonts/Gilroy-ThinItalic.woff2") format("woff2"), url("../fonts/Gilroy-ThinItalic.woff") format("woff");
+  src: url("Gilroy-ThinItalic.woff2") format("woff2"), url("Gilroy-ThinItalic.woff") format("woff");
   font-weight: 400;
   font-style: Italic;
 }
@@ -281,7 +281,7 @@ table {
 @font-face {
   font-family: Gilroy;
   font-display: swap;
-  src: url("../fonts/Gilroy-UltraLight.woff2") format("woff2"), url("../fonts/Gilroy-UltraLight.woff") format("woff");
+  src: url("Gilroy-UltraLight.woff2") format("woff2"), url("Gilroy-UltraLight.woff") format("woff");
   font-weight: 400;
   font-style: normal;
 }
@@ -289,7 +289,7 @@ table {
 @font-face {
   font-family: Gilroy;
   font-display: swap;
-  src: url("../fonts/Gilroy-UltraLightItalic.woff2") format("woff2"), url("../fonts/Gilroy-UltraLightItalic.woff") format("woff");
+  src: url("Gilroy-UltraLightItalic.woff2") format("woff2"), url("Gilroy-UltraLightItalic.woff") format("woff");
   font-weight: 400;
   font-style: Italic;
 }
@@ -297,7 +297,7 @@ table {
 @font-face {
   font-family: NotoSerif;
   font-display: swap;
-  src: url("../fonts/NotoSerif-BoldItalic.woff2") format("woff2"), url("../fonts/NotoSerif-BoldItalic.woff") format("woff");
+  src: url("NotoSerif-BoldItalic.woff2") format("woff2"), url("NotoSerif-BoldItalic.woff") format("woff");
   font-weight: 400;
   font-style: Italic;
 }
@@ -305,7 +305,7 @@ table {
 @font-face {
   font-family: NotoSerif;
   font-display: swap;
-  src: url("../fonts/NotoSerif-Bold.woff2") format("woff2"), url("../fonts/NotoSerif-Bold.woff") format("woff");
+  src: url("NotoSerif-Bold.woff2") format("woff2"), url("NotoSerif-Bold.woff") format("woff");
   font-weight: 700;
   font-style: normal;
 }
@@ -313,7 +313,7 @@ table {
 @font-face {
   font-family: NotoSerif;
   font-display: swap;
-  src: url("../fonts/NotoSerif-Italic.woff2") format("woff2"), url("../fonts/NotoSerif-Italic.woff") format("woff");
+  src: url("NotoSerif-Italic.woff2") format("woff2"), url("NotoSerif-Italic.woff") format("woff");
   font-weight: 400;
   font-style: Italic;
 }
@@ -321,7 +321,7 @@ table {
 @font-face {
   font-family: NotoSerif;
   font-display: swap;
-  src: url("../fonts/NotoSerif-Regular.woff2") format("woff2"), url("../fonts/NotoSerif-Regular.woff") format("woff");
+  src: url("NotoSerif-Regular.woff2") format("woff2"), url("NotoSerif-Regular.woff") format("woff");
   font-weight: 400;
   font-style: normal;
 }
@@ -401,7 +401,7 @@ table {
 }
 
 no-webp .catalog .catalog__container .catalog__body .imgs .column .img {
-  background-image: url(/img/imgcatalog.png); }
+  background-image: url(imgcatalog.png); }
 
 .catalog .catalog__container .catalog__body .imgs .column .img {
   display: flex;
@@ -445,7 +445,7 @@ body {
 }
 
 no-webp .wrapper header {
-  background-image: url(/img/bgc.png); }
+  background-image: url(bgc.png); }
 
 .wrapper header {
   -ms-grid-row: 1;
@@ -632,7 +632,7 @@ no-webp .wrapper header {
 }
 
 no-webp .wrapper main .wrapper-main .content__1 {
-  background-image: url(/img/contentBACK.png); }
+  background-image: url(contentBACK.png); }
 
 .wrapper main .wrapper-main .content__1 {
   width: 100%;
@@ -693,7 +693,7 @@ no-webp .wrapper main .wrapper-main .content__1 {
 }
 
 no-webp .wrapper main .wrapper-main .catalog2 .catalog__container .catalog__body .imgs .img {
-  background-image: url(/img/contentIMG.png); }
+  background-image: url(contentIMG.png); }
 
 .wrapper main .wrapper-main .catalog2 .catalog__container .catalog__body .imgs .img .title {
   font-family: "Gilroy";
@@ -726,7 +726,7 @@ no-webp .wrapper main .wrapper-main .catalog2 .catalog__container .catalog__body
 }
 
 no-webp .wrapper main .wrapper-main .content__3 {
-  background-image: url(/img/contentBACK.png); }
+  background-image: url(contentBACK.png); }
 
 .wrapper main .wrapper-main .content__3 {
   width: 100%;
@@ -794,7 +794,7 @@ no-webp .wrapper main .wrapper-main .content__3 {
 }
 
 .wrapper main .wrapper-main .content__3 .content__container .content__body .input ul li::before {
-  content: url(/img/subscribe__icon.svg);
+  content: url(subscribe__icon.svg);
   margin-right: 20px;
 }
 
@@ -1016,12 +1016,12 @@ no-webp .wrapper main .wrapper-main .content__3 {
   }
 }
 
-.webp .catalog .catalog__container .catalog__body .imgs .column .img { background-image: url(/img/imgcatalog.webp); }
+.webp .catalog .catalog__container .catalog__body .imgs .column .img { background-image: url(imgcatalog.webp); }
 
-.webp .wrapper header { background-image: url(/img/bgc.webp); }
+.webp .wrapper header { background-image: url(bgc.webp); }
 
-.webp .wrapper main .wrapper-main .content__1 { background-image: url(/img/contentBACK.webp); }
+.webp .wrapper main .wrapper-main .content__1 { background-image: url(contentBACK.webp); }
 
-.webp .wrapper main .wrapper-main .catalog2 .catalog__container .catalog__body .imgs .img { background-image: url(/img/contentIMG.webp); }
+.webp .wrapper main .wrapper-main .catalog2 .catalog__container .catalog__body .imgs .img { background-image: url(contentIMG.webp); }
 
-.webp .wrapper main .wrapper-main .content__3 { background-image: url(/img/contentBACK.webp); }
+.webp .wrapper main .wrapper-main .content__3 { background-image: url(contentBACK.webp); }
