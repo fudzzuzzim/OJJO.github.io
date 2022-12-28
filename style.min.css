@@ -401,7 +401,7 @@ table {
 }
 
 .catalog .catalog__container .catalog__body .imgs .column .img {
-  background-image: url("imgcatalog.png");
+  background-image: url(imgcatalog.png);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -442,7 +442,7 @@ body {
   grid-template-rows: 950px 4200px 500px;
 }
 .wrapper header {
-  background-image: url("bgc.png");
+  background-image: url(bgc.png);
   -ms-grid-row: 1;
   -ms-grid-column: 1;
   grid-area: header;
@@ -627,7 +627,7 @@ body {
 }
 
 .wrapper main .wrapper-main .content__1 {
-  background-image: url("contentBACK.png"); }
+  background-image: url(contentBACK.png); 
   width: 100%;
 }
 
@@ -685,7 +685,7 @@ body {
   color: #333333;
 }
 .wrapper main .wrapper-main .catalog2 .catalog__container .catalog__body .imgs .img .title {
-  background-image: url("contentIMG.png");
+  background-image: url(contentIMG.png);
   font-family: "Gilroy";
   font-style: normal;
   font-weight: 400;
@@ -716,7 +716,7 @@ body {
 }
 
 .wrapper main .wrapper-main .content__3 {
-  background-image: url("contentBACK.png"); }
+  background-image: url(contentBACK.png); 
   width: 100%;
   max-height: 378px;
   height: 100%;
