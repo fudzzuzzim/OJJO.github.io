@@ -1,0 +1,1027 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+button {
+  border: none;
+}
+
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+@font-face {
+  font-family: Gilroy;
+  font-display: swap;
+  src: url("../fonts/Gilroy-Black.woff2") format("woff2"), url("../fonts/Gilroy-Black.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Gilroy;
+  font-display: swap;
+  src: url("../fonts/Gilroy-BlackItalic.woff2") format("woff2"), url("../fonts/Gilroy-BlackItalic.woff") format("woff");
+  font-weight: 400;
+  font-style: Italic;
+}
+
+@font-face {
+  font-family: Gilroy;
+  font-display: swap;
+  src: url("../fonts/Gilroy-Bold.woff2") format("woff2"), url("../fonts/Gilroy-Bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Gilroy;
+  font-display: swap;
+  src: url("../fonts/Gilroy-Extrabold.woff2") format("woff2"), url("../fonts/Gilroy-Extrabold.woff") format("woff");
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Gilroy;
+  font-display: swap;
+  src: url("../fonts/Gilroy-BoldItalic.woff2") format("woff2"), url("../fonts/Gilroy-BoldItalic.woff") format("woff");
+  font-weight: 400;
+  font-style: Italic;
+}
+
+@font-face {
+  font-family: Gilroy;
+  font-display: swap;
+  src: url("../fonts/Gilroy-Heavy.woff2") format("woff2"), url("../fonts/Gilroy-Heavy.woff") format("woff");
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Gilroy;
+  font-display: swap;
+  src: url("../fonts/Gilroy-ExtraboldItalic.woff2") format("woff2"), url("../fonts/Gilroy-ExtraboldItalic.woff") format("woff");
+  font-weight: 400;
+  font-style: Italic;
+}
+
+@font-face {
+  font-family: Gilroy;
+  font-display: swap;
+  src: url("../fonts/Gilroy-LightItalic.woff2") format("woff2"), url("../fonts/Gilroy-LightItalic.woff") format("woff");
+  font-weight: 400;
+  font-style: Italic;
+}
+
+@font-face {
+  font-family: Gilroy;
+  font-display: swap;
+  src: url("../fonts/Gilroy-Medium.woff2") format("woff2"), url("../fonts/Gilroy-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Gilroy;
+  font-display: swap;
+  src: url("../fonts/Gilroy-HeavyItalic.woff2") format("woff2"), url("../fonts/Gilroy-HeavyItalic.woff") format("woff");
+  font-weight: 400;
+  font-style: Italic;
+}
+
+@font-face {
+  font-family: Gilroy;
+  font-display: swap;
+  src: url("../fonts/Gilroy-MediumItalic.woff2") format("woff2"), url("../fonts/Gilroy-MediumItalic.woff") format("woff");
+  font-weight: 400;
+  font-style: Italic;
+}
+
+@font-face {
+  font-family: Gilroy;
+  font-display: swap;
+  src: url("../fonts/Gilroy-Regular.woff2") format("woff2"), url("../fonts/Gilroy-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Gilroy;
+  font-display: swap;
+  src: url("../fonts/Gilroy-RegularItalic.woff2") format("woff2"), url("../fonts/Gilroy-RegularItalic.woff") format("woff");
+  font-weight: 400;
+  font-style: Italic;
+}
+
+@font-face {
+  font-family: Gilroy;
+  font-display: swap;
+  src: url("../fonts/Gilroy-Semibold.woff2") format("woff2"), url("../fonts/Gilroy-Semibold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Gilroy;
+  font-display: swap;
+  src: url("../fonts/Gilroy-SemiboldItalic.woff2") format("woff2"), url("../fonts/Gilroy-SemiboldItalic.woff") format("woff");
+  font-weight: 400;
+  font-style: Italic;
+}
+
+@font-face {
+  font-family: Gilroy;
+  font-display: swap;
+  src: url("../fonts/Gilroy-Light.woff2") format("woff2"), url("../fonts/Gilroy-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Gilroy;
+  font-display: swap;
+  src: url("../fonts/Gilroy-Thin.woff2") format("woff2"), url("../fonts/Gilroy-Thin.woff") format("woff");
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Gilroy;
+  font-display: swap;
+  src: url("../fonts/Gilroy-ThinItalic.woff2") format("woff2"), url("../fonts/Gilroy-ThinItalic.woff") format("woff");
+  font-weight: 400;
+  font-style: Italic;
+}
+
+@font-face {
+  font-family: Gilroy;
+  font-display: swap;
+  src: url("../fonts/Gilroy-UltraLight.woff2") format("woff2"), url("../fonts/Gilroy-UltraLight.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Gilroy;
+  font-display: swap;
+  src: url("../fonts/Gilroy-UltraLightItalic.woff2") format("woff2"), url("../fonts/Gilroy-UltraLightItalic.woff") format("woff");
+  font-weight: 400;
+  font-style: Italic;
+}
+
+@font-face {
+  font-family: NotoSerif;
+  font-display: swap;
+  src: url("../fonts/NotoSerif-BoldItalic.woff2") format("woff2"), url("../fonts/NotoSerif-BoldItalic.woff") format("woff");
+  font-weight: 400;
+  font-style: Italic;
+}
+
+@font-face {
+  font-family: NotoSerif;
+  font-display: swap;
+  src: url("../fonts/NotoSerif-Bold.woff2") format("woff2"), url("../fonts/NotoSerif-Bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: NotoSerif;
+  font-display: swap;
+  src: url("../fonts/NotoSerif-Italic.woff2") format("woff2"), url("../fonts/NotoSerif-Italic.woff") format("woff");
+  font-weight: 400;
+  font-style: Italic;
+}
+
+@font-face {
+  font-family: NotoSerif;
+  font-display: swap;
+  src: url("../fonts/NotoSerif-Regular.woff2") format("woff2"), url("../fonts/NotoSerif-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+.title h2 {
+  font-family: "Noto Serif";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 41px;
+  color: #333333;
+}
+
+.catalog .catalog__container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.catalog .catalog__container .catalog__body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.catalog .catalog__container .catalog__body .buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 40px;
+}
+
+.catalog .catalog__container .catalog__body .buttons button {
+  max-width: 165px;
+  width: 100%;
+  height: 61px;
+  background-color: rgba(255, 255, 255, 0);
+  border: 1px solid #D6D6D6;
+}
+
+.catalog .catalog__container .catalog__body .buttons button a {
+  text-decoration: none;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #333333;
+}
+
+.catalog .catalog__container .catalog__body .buttons button:hover {
+  background-color: #333333;
+  transition: all 0.3s;
+  border: none;
+}
+
+.catalog .catalog__container .catalog__body .buttons button:hover a {
+  color: #fff;
+}
+
+.catalog .catalog__container .catalog__body .imgs {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 40px;
+}
+
+.catalog .catalog__container .catalog__body .imgs .column {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+no-webp .catalog .catalog__container .catalog__body .imgs .column .img {
+  background-image: url(/img/imgcatalog.png); }
+
+.catalog .catalog__container .catalog__body .imgs .column .img {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  max-width: 350px;
+  width: 100%;
+  background-position: center center;
+  background-size: cover;
+  height: 280px;
+  background-repeat: no-repeat;
+}
+
+.catalog .catalog__container .catalog__body .imgs .column .img .title {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  padding-bottom: 30px;
+}
+
+.catalog .catalog__container .catalog__body .imgs .column:first-child {
+  margin-top: 0px;
+}
+
+body {
+  width: 100%;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-areas: "header" "main" "footer";
+  grid-template-columns: 1fr;
+  grid-template-rows: 950px 4200px 500px;
+}
+
+no-webp .wrapper header {
+  background-image: url(/img/bgc.png); }
+
+.wrapper header {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: header;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+.wrapper header .wrapper-header {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.wrapper header .wrapper-header .header {
+  padding-top: 25px;
+}
+
+.wrapper header .wrapper-header .header .header__container .header__body {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.wrapper header .wrapper-header .header .header__container .header__body .header__burger {
+  display: none;
+  justify-content: space-between;
+  flex-direction: column;
+  min-width: 30px;
+  min-height: 10px;
+}
+
+.wrapper header .wrapper-header .header .header__container .header__body .header__burger .burger .line {
+  width: 30px;
+  height: 2px;
+  background-color: #ffffff;
+  cursor: pointer;
+}
+
+.wrapper header .wrapper-header .header .header__container .header__body nav {
+  display: flex;
+  flex-direction: row;
+  max-width: 300px;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.wrapper header .wrapper-header .header .header__container .header__body nav a {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.wrapper header .wrapper-header .header .header__container .header__body .navigation {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  max-width: 320px;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.wrapper header .wrapper-header .header .header__container .header__body .navigation .input {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.wrapper header .wrapper-header .header .header__container .header__body .navigation .input input {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: #FFFFFF;
+  background-color: rgba(255, 255, 255, 0);
+  border: none;
+  width: 81px;
+}
+
+.wrapper header .wrapper-header .header .header__container .header__body .navigation .txt p {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: #FFFFFF;
+}
+
+.wrapper header .wrapper-header .intro .intro__container .intro__body {
+  display: flex;
+  flex-direction: column;
+}
+
+.wrapper header .wrapper-header .intro .intro__container .intro__body .txt {
+  padding-bottom: 80px;
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.wrapper header .wrapper-header .intro .intro__container .intro__body .txt .title {
+  padding-bottom: 50px;
+}
+
+.wrapper header .wrapper-header .intro .intro__container .intro__body .txt .title h2 {
+  font-family: "Noto Serif";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 49px;
+  color: #FFFFFF;
+}
+
+.wrapper header .wrapper-header .intro .intro__container .intro__body .txt button {
+  width: 261px;
+  height: 51px;
+  background-color: rgba(51, 51, 51, 0);
+  border: 1px solid #FFFFFF;
+}
+
+.wrapper header .wrapper-header .intro .intro__container .intro__body .txt button a {
+  text-decoration: none;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.wrapper header .wrapper-header .intro .intro__container .intro__body .img hr {
+  border: 1px solid #FFFFFF;
+}
+
+.wrapper header .wrapper-header .intro .intro__container .intro__body .img .img-body {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 30px 0px 30px 0px;
+  width: 100%;
+}
+
+.wrapper header .wrapper-header .intro .intro__container .intro__body .img .img-body img {
+  max-width: 160px;
+  width: 100%;
+  height: auto;
+}
+
+.wrapper main {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  grid-area: main;
+}
+
+.wrapper main .wrapper-main {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.wrapper main .wrapper-main .catalog {
+  margin-top: 100px;
+}
+
+no-webp .wrapper main .wrapper-main .content__1 {
+  background-image: url(/img/contentBACK.png); }
+
+.wrapper main .wrapper-main .content__1 {
+  width: 100%;
+}
+
+.wrapper main .wrapper-main .content__1 .content__container .content__body {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 130px 0px 100px 0px;
+}
+
+.wrapper main .wrapper-main .content__1 .content__container .content__body .title h3 {
+  font-family: "Noto Serif";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 41px;
+  color: #FFFFFF;
+}
+
+.wrapper main .wrapper-main .content__1 .content__container .content__body .txt {
+  padding-top: 45px;
+}
+
+.wrapper main .wrapper-main .content__1 .content__container .content__body .txt p {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+  color: #FFFFFF;
+}
+
+.wrapper main .wrapper-main .content__1 .content__container .content__body button {
+  margin-top: 60px;
+  max-width: 224px;
+  width: 100%;
+  height: 51px;
+  background: #FFFFFF;
+  border: 1px solid #333333;
+}
+
+.wrapper main .wrapper-main .content__1 .content__container .content__body button a {
+  text-decoration: none;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #333333;
+}
+
+no-webp .wrapper main .wrapper-main .catalog2 .catalog__container .catalog__body .imgs .img {
+  background-image: url(/img/contentIMG.png); }
+
+.wrapper main .wrapper-main .catalog2 .catalog__container .catalog__body .imgs .img .title {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 140%;
+  color: #FFFFFF;
+}
+
+.wrapper main .wrapper-main .content__2 .content__container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.wrapper main .wrapper-main .content__2 .content__container .content__body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.wrapper main .wrapper-main .content__2 .content__container .content__body .img {
+  margin-top: 50px;
+}
+
+.wrapper main .wrapper-main .content__2 .content__container .content__body .img img {
+  max-width: 1100px;
+  width: 100%;
+  height: auto;
+}
+
+no-webp .wrapper main .wrapper-main .content__3 {
+  background-image: url(/img/contentBACK.png); }
+
+.wrapper main .wrapper-main .content__3 {
+  width: 100%;
+  max-height: 378px;
+  height: 100%;
+}
+
+.wrapper main .wrapper-main .content__3 .content__container {
+  padding-top: 100px;
+}
+
+.wrapper main .wrapper-main .content__3 .content__container .content__body {
+  display: flex;
+  flex-direction: column;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.wrapper main .wrapper-main .content__3 .content__container .content__body .title h3 {
+  font-family: "Noto Serif";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 41px;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+.wrapper main .wrapper-main .content__3 .content__container .content__body .input {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 70px;
+}
+
+.wrapper main .wrapper-main .content__3 .content__container .content__body .input input {
+  max-width: 418px;
+  width: 100%;
+  height: 85px;
+  background-color: #FFFFFF;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: rgba(51, 51, 51, 0.5);
+  padding-left: 20px;
+}
+
+.wrapper main .wrapper-main .content__3 .content__container .content__body .input ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.wrapper main .wrapper-main .content__3 .content__container .content__body .input ul li {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+  color: #FFFFFF;
+}
+
+.wrapper main .wrapper-main .content__3 .content__container .content__body .input ul li::before {
+  content: url(/img/subscribe__icon.svg);
+  margin-right: 20px;
+}
+
+.wrapper footer {
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+  grid-area: footer;
+  height: 100%;
+}
+
+.wrapper footer .footer__wrapper {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.wrapper footer .footer__wrapper .footer {
+  margin-top: 100px;
+}
+
+.wrapper footer .footer__wrapper .footer .footer__container .footer__body {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.wrapper footer .footer__wrapper .footer .footer__container .footer__body .footer__list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.wrapper footer .footer__wrapper .footer .footer__container .footer__body .footer__list .footer__item hr {
+  border: 1px solid #333333;
+}
+
+.wrapper footer .footer__wrapper .footer .footer__container .footer__body .footer__list .footer__item .title h2 {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 140%;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #333333;
+}
+
+.wrapper footer .footer__wrapper .footer .footer__container .footer__body .footer__list .footer__item nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.wrapper footer .footer__wrapper .footer .footer__container .footer__body .footer__list .footer__item nav a {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: #333333;
+  text-decoration: none;
+}
+
+.wrapper footer .footer__wrapper .footer .footer__container .footer__body .footer__FAQ {
+  margin-top: 60px;
+}
+
+.wrapper footer .footer__wrapper .footer .footer__container .footer__body .footer__FAQ hr {
+  border: 1px solid #333333;
+}
+
+.wrapper footer .footer__wrapper .footer .footer__container .footer__body .footer__FAQ ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.wrapper footer .footer__wrapper .footer .footer__container .footer__body .footer__FAQ ul li {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: #333333;
+}
+
+@media (max-width: 1090px) {
+  .catalog .catalog__container .catalog__body .buttons {
+    display: none;
+  }
+
+  .catalog .catalog__container .catalog__body .imgs .column {
+    justify-content: center;
+  }
+
+  .catalog .catalog__container .catalog__body .imgs .column .img:first-child {
+    display: none;
+  }
+
+  .catalog .catalog__container .catalog__body .imgs .column .img:last-child {
+    display: none;
+  }
+
+  .wrapper header .wrapper-header .intro .intro__container .intro__body .img .img-body {
+    max-width: 800px;
+  }
+
+  .wrapper header .wrapper-header .intro .intro__container .intro__body .img .img-body img:nth-child(1) {
+    display: none;
+  }
+
+  .wrapper header .wrapper-header .intro .intro__container .intro__body .img .img-body img:nth-child(6) {
+    display: none;
+  }
+}
+
+@media (max-width: 960px) {
+  .wrapper footer .footer__wrapper .footer .footer__container .footer__body .footer__list {
+    justify-content: space-evenly;
+  }
+
+  .wrapper footer .footer__wrapper .footer .footer__container .footer__body .footer__list .footer__item:first-child {
+    display: none;
+  }
+
+  .wrapper footer .footer__wrapper .footer .footer__container .footer__body .footer__list .footer__item:last-child {
+    display: none;
+  }
+}
+
+@media (max-width: 900px) {
+  .wrapper header .wrapper-header .header .header__container .header__body .header__burger {
+    display: flex;
+  }
+
+  .wrapper header .wrapper-header .header .header__container .header__body nav {
+    display: none;
+  }
+
+  .wrapper header .wrapper-header .header .header__container .header__body .navigation {
+    display: none;
+  }
+
+  .wrapper header .wrapper-header .header .header__container .header__body {
+    max-width: 800px;
+  }
+}
+
+@media (max-width: 800px) {
+  .wrapper header .wrapper-header .header .header__container .header__body {
+    max-width: 700px;
+  }
+
+  .wrapper header .wrapper-header .intro .intro__container .intro__body .img .img-body {
+    max-width: 700px;
+    justify-content: space-evenly;
+  }
+
+  .wrapper header .wrapper-header .intro .intro__container .intro__body .img .img-body img:nth-child(2) {
+    display: none;
+  }
+
+  .wrapper header .wrapper-header .intro .intro__container .intro__body .img .img-body img:nth-child(5) {
+    display: none;
+  }
+}
+
+@media (max-width: 710px) {
+  .wrapper main .wrapper-main .content__3 .content__container .content__body {
+    max-width: 600px;
+  }
+
+  .wrapper main .wrapper-main .content__3 .content__container .content__body .input input {
+    max-width: 318px;
+  }
+}
+
+@media (max-width: 700px) {
+  .wrapper header .wrapper-header .intro .intro__container .intro__body .img .img-body {
+    max-width: 500px;
+  }
+}
+
+@media (max-width: 670px) {
+  .wrapper main .wrapper-main .catalog2 .catalog__container .catalog__body .title h2 {
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 610px) {
+  .wrapper main .wrapper-main .content__3 .content__container .content__body {
+    max-width: 600px;
+  }
+
+  .wrapper main .wrapper-main .content__3 .content__container .content__body .input input {
+    max-width: 218px;
+  }
+}
+
+@media (max-width: 540px) {
+  .wrapper main .wrapper-main .catalog2 .catalog__container .catalog__body .title h2 {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 425px) {
+  .wrapper main .wrapper-main .catalog2 .catalog__container .catalog__body .title h2 {
+    font-size: 17px;
+  }
+
+  .wrapper main .wrapper-main .content__3 .content__container .content__body .input ul li {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 405px) {
+  .wrapper main .wrapper-main .content__3 .content__container .content__body .input ul li {
+    font-size: 8px;
+  }
+}
+
+.webp .catalog .catalog__container .catalog__body .imgs .column .img { background-image: url(/img/imgcatalog.webp); }
+
+.webp .wrapper header { background-image: url(/img/bgc.webp); }
+
+.webp .wrapper main .wrapper-main .content__1 { background-image: url(/img/contentBACK.webp); }
+
+.webp .wrapper main .wrapper-main .catalog2 .catalog__container .catalog__body .imgs .img { background-image: url(/img/contentIMG.webp); }
+
+.webp .wrapper main .wrapper-main .content__3 { background-image: url(/img/contentBACK.webp); }
