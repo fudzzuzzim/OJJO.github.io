@@ -684,14 +684,8 @@ body {
   text-transform: uppercase;
   color: #333333;
 }
-.wrapper main .wrapper-main .catalog2 .catalog__container .catalog__body .imgs .img .title {
+.wrapper main .wrapper-main .catalog2 .catalog__container .catalog__body .imgs .img{
   background-image: url(contentIMG.png);
-  font-family: "Gilroy";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 21px;
-  line-height: 140%;
-  color: #FFFFFF;
 }
 
 .wrapper main .wrapper-main .content__2 .content__container {
